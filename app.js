@@ -11,7 +11,7 @@ var users = require('./routes/users');
 var mongoose = require('mongoose')
 mongoose.Promise = global.Promise;
 //kapcsolódás az adatbázishoz
-mongoose.connect('mongodb://localhost/superhero')
+mongoose.connect('mongodb://localhost/sajat')
 	.then(() => console.log('connection succesful'))
 	.catch((err) => console.error(err));
 
